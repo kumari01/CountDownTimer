@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="countdown" id ="countdown">
+        <h2 class ="heading">Set Timer</h2>
+        <div class="inputs-filed">
+            <label for="hours">Hours:</label>
+            <input type = "number" id ="hours" min ="0">
+            <label for="minutes">Minutes:</label>
+            <input type = "number" id ="minutes" min ="0">
+            <label for="seconds">seconds:</label>
+            <input type = "number" id ="seconds" min ="0"><br><br>
+            <button id = "startBtn" class ="btn">Start Timer</button>
+        </div>
+        <div class="countdownpage">
+            <h2 class ="counthead">CountDown Timer</h2>
+            <div class="count">
+                <p id = "timer"><span>00</span>:<span>00</span>:<span>00</span></p>
+            </div>
+            <button id ="restart" class ="btn">Reset</button>
+        </div>
+    </div>
+    <script src= "script.js"></script>
+</body>
+</html>
